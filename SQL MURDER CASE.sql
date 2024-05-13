@@ -21,7 +21,7 @@ order by address_number desc
 -- Our first Witness is Morty Schapiro with License ID 118009, Address Number 4919 on Northwestern Dr
 -- with ssn 111564949 with ID 14887
 
-
+![alt text](https://github.com/calfav/MURDER-CASE-WITH-SQL/blob/main/Morty%20Schapiro.JPG)
 
 
 
@@ -34,6 +34,8 @@ WHERE address_street_name like '%Franklin Ave' AND name like 'Annabel%'
 -- Our Second Witness is Annabel Miller with License ID 490173, Address Number 103 on Franklin Ave
 -- with ssn 318771143 with ID 16371
 
+
+![alt text](https://github.com/calfav/MURDER-CASE-WITH-SQL/blob/main/Annabel%20Miller.JPG)
 
 SELECT * FROM Interview
 WHERE Person_Id IN (14887, 16371)
