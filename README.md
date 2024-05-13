@@ -9,7 +9,7 @@ The detective gave you the crime scene report, but you somehow lost it. You vagu
 
 /*A crime has taken place and the detective needs your help. 
 The detective gave you the crime scene report, but you somehow lost it.
-You vaguely remember that the crime was a murder that occured sometime on Jan.15, 2018 
+You vaguely remember that the crime was a murder that occurred sometime on Jan.15, 2018 
 and that it took place in SQL City. 
 */
 -
@@ -59,11 +59,13 @@ WHERE Person_Id IN (14887, 16371)
 	
 
 */
+ ![alt text](https://github.com/calfav/MURDER-CASE-WITH-SQL/blob/main/witnesses.JPG)
 
 
 	Select * from get_fit_now_member
 	Where Id like '48Z%' AND Membership_status = 'gold'
-	
+
+ ![alt text](https://github.com/calfav/MURDER-CASE-WITH-SQL/blob/main/our%20suspects.JPG)
 	
 --	Our suspects are Joe Germuska with Id 48z7a, person id 28819, membership start date 20160305, and gold membership
 --	Our second suspect is Jeremy Bowers with Id 48z55, 67318, membership start date of 20160101 and gold status.
@@ -80,6 +82,8 @@ WHERE Person_Id IN (14887, 16371)
 	Left Join person as p
 	On dl.id = p.license_id
 	Where plate_number like '%H42W%' or Plate_number like 'H42W%' Or Plate_number like '%H42W'
+
+![alt text](https://github.com/calfav/MURDER-CASE-WITH-SQL/blob/main/Killers.JPG)
 	
 --	Our killer is Jeremy Bowers.
 /* Congrats, you found the murderer! But wait, there's more....
